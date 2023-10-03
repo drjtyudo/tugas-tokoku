@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,6 +14,23 @@ import Category from "../Components/Category/Category";
 import barang from "../../data/barang";
 
 const Home = () => {
+  const [product, setProduct] = useState([]);
+
+  useEffect(() => {
+      fetchData()
+  },[]);
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch("./data/product.json");
+      const jsonData = await response.json()
+      const data = jsonData.product
+      setProduct(data)
+    } catch (error) {
+      console.log("Error fetching data:", error)
+    }
+  };
+console.log(product);
   return (
     <>
       {/* banner */}
@@ -103,7 +120,7 @@ const Home = () => {
           modules={[FreeMode, Pagination]}
           className="py-10"
         >
-          {barang.map((e) => (
+          {product.map((e) => (
             <SwiperSlide>
               <Cards.CardKategori
                 img={e.image}

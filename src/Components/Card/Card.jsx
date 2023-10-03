@@ -23,8 +23,6 @@ const Cards = {
       // localStorage.setItem('barangDataList', JSON.stringify(barangDataList));
       // alert('Data telah disimpan ke Local Storage.');
     };
-
-    console.log(barangDataList);
     return (
       <div className="h-[400px] w-[220px] border rounded-[10px] p-2 flex flex-col">
         <img

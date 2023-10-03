@@ -12,15 +12,11 @@ const FooterHome = () => {
     <div className="flex">
       <div className="footer bg-blue-100 py-10 px-16 w-full flex justify-between">
         <div>
-          <h2 className="text-[24px] text-blue-500 font-bold">
-            Toko Yudo
-          </h2>
+          <h2 className="text-[24px] text-blue-500 font-bold">Toko Yudo</h2>
           <p>Alamat : Cangkuang Rt 1 Rw 12</p>
         </div>
         <div>
-          <h2 className="text-[24px] text-blue-500 font-bold">
-            Media sosial
-          </h2>
+          <h2 className="text-[24px] text-blue-500 font-bold">Media sosial</h2>
           <div className="flex">
             {/* Twitter */}
             <Tooltip title="Twitter">

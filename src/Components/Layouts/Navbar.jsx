@@ -12,10 +12,10 @@ const Navbar = () => {
         <div className=" flex gap-3">
           <div className="flex gap-4 me-12">
             <Link to="/">
-              <i class="bi bi-house-door text-white text-[28px]"></i>
+              <i className="bi bi-house-door text-white text-[28px]"></i>
             </Link>
             <Link to="/cart">
-              <i class="bi bi-cart-check text-white text-[28px]"></i>
+              <i className="bi bi-cart-check text-white text-[28px]"></i>
             </Link>
           </div>
 

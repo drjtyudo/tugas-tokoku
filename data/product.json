@@ -1,0 +1,52 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/200x200?laptop",
+      "title": "Laptop",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipis. ...",
+      "stock": 100,
+      "price": "500.000"
+    },
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/200x200?laptop",
+      "title": "Laptop",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipis. ...",
+      "stock": 100,
+      "price": "500.000"
+    },
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/200x200?laptop",
+      "title": "Laptop",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipis. ...",
+      "stock": 100,
+      "price": "500.000"
+    },
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/200x200?laptop",
+      "title": "Laptop",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipis. ...",
+      "stock": 100,
+      "price": "500.000"
+    },
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/200x200?laptop",
+      "title": "Laptop",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipis. ...",
+      "stock": 100,
+      "price": "500.000"
+    },
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/200x200?laptop",
+      "title": "Laptop",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipis. ...",
+      "stock": 100,
+      "price": "500.000"
+    }
+  ]
+}

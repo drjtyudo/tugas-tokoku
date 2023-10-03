@@ -11,7 +11,7 @@ const Login = () => {
         <img src="/images/vector1.svg" alt="" />
         <div>
           <div className="flex gap-2 mb-5">
-            <i class="bi bi-caret-left"></i>
+            <i className="bi bi-caret-left"></i>
             <Link to="/">
               <p>Kembali</p>
             </Link>
